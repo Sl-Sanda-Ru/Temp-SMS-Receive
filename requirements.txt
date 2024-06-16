@@ -2,3 +2,4 @@ requests
 colorama
 pyfiglet
 pyperclip
+pycryptodome
