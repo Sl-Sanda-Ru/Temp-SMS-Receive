@@ -328,7 +328,7 @@ def main():
 
 
 if __name__ == "__main__":
-    if not check_update()[0]:
+    if check_update()[0]:
         warn("Update Available")
         info("Updating...")
         update()
